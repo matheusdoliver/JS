@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificaro de idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <p>
+           <label for="txtano">Ano de nascimento:</label>
+           <input type="number" name="ano" id="txtano" min="0">
+        </p>
+
+        <p>
+            Sexo:
+            <input type="radio" name="sexo" id="mac" checked>
+            <label for="mac">Masculino</label>
+            <input type="radio" name="sexo" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+
+        <p>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </p>
+        
+        
+        <p id="res">
+            Preencha os dados acima para ver o resultado!
+            <img id="foto" src="imagens/foto-one-piece.png" alt="Lufy">
+        </p>
+    </section>
+    <footer>
+        <p>&copy; Matheus de Oliveira</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
