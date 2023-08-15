@@ -12,7 +12,9 @@ function verificar() {
         let genero = ''
         let img = window.document.getElementById('foto')
 
-        if (fsex[0].checked) {
+        if (fsex[0].checked) 
+        
+        {
             genero = 'Homem'
             
             if (idade >=0 && idade <10) {
